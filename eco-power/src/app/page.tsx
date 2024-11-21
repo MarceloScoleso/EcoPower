@@ -25,17 +25,22 @@ export default function Home() {
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
         <Link href="#funcionalidades" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
-          Funcionalidades
+          Perfil
         </Link>
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
         <Link href="/Reciclagem" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
-          Reciclagem 
+          Pontos de Coleta
         </Link>
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
         <Link href="#contato" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
-          Contato
+          Login
+        </Link>
+      </li>
+      <li className="transition transform hover:scale-110 hover:text-blue-600">
+        <Link href="#contato" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+          Cadastro
         </Link>
       </li>
     </ul>
@@ -54,9 +59,11 @@ export default function Home() {
           <p className="text-lg md:text-xl mb-6 animate__animated animate__fadeIn animate__delay-2s">
             Com nossa plataforma de reciclagem, você contribui para um futuro sustentável enquanto converte lixo eletrônico em fontes de energia renovável!
           </p>
-          <button className="bg-yellow-400 px-6 py-3 text-lg font-semibold text-black rounded-lg shadow-md hover:bg-yellow-500 transition-all duration-300">
-            Saiba Mais
-          </button>
+        <nav>
+        <Link href="/Reciclagem" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+          Recicle Aqui!
+        </Link>
+        </nav>
         </div>
       </section>
 
