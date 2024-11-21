@@ -19,8 +19,13 @@ export default function Home() {
         </Link>
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
-        <Link href="#sobre" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
-          Sobre
+        <Link href="/ranking" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+          Ranking
+        </Link>
+      </li>
+      <li className="transition transform hover:scale-110 hover:text-blue-600">
+        <Link href="/integrantes" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+          Integrantes
         </Link>
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
@@ -34,15 +39,22 @@ export default function Home() {
         </Link>
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
-        <Link href="/login" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
-          Login
-        </Link>
-      </li>
-      <li className="transition transform hover:scale-110 hover:text-blue-600">
-        <Link href="/cadastro" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
-          Cadastro
-        </Link>
-      </li>
+  <Link
+    href="/login"
+    className="px-8 py-3 bg-white text-black rounded-full border-2  hover:bg-green-600 hover:text-white hover:border-green-500 transition-colors duration-300"
+  >
+    Login
+  </Link>
+</li>
+<li className="transition transform hover:scale-110 hover:text-blue-600">
+  <Link
+    href="/cadastro"
+    className="px-8 py-3 bg-white text-black rounded-full border-2 hover:bg-green-600 hover:text-white hover:border-green-500 transition-colors duration-300"
+  >
+    Cadastro
+  </Link>
+</li>
+
     </ul>
   </nav>
 </header>
@@ -60,7 +72,7 @@ export default function Home() {
             Com nossa plataforma de reciclagem, você contribui para um futuro sustentável enquanto converte lixo eletrônico em fontes de energia renovável!
           </p>
         <nav>
-        <Link href="/Reciclagem" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+        <Link href="/reciclagem" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
           Recicle Aqui!
         </Link>
         </nav>

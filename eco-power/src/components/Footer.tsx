@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'; 
+import { FaYoutube, FaTwitter, FaInstagram } from 'react-icons/fa'; 
 
 const Footer = () => {
     return (
@@ -8,13 +8,13 @@ const Footer = () => {
   <div className="max-w-6xl mx-auto text-center">
     <p>&copy; 2024 EcoPower. Todos os direitos reservados.</p>
     <div className="flex justify-center space-x-6 mt-4">
-      <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 hover:text-yellow-400">
-        <FaFacebook size={30} />
+      <Link href="https://www.youtube.com/channel/UCDoTD-k90n3782rOEVZjmRg" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 hover:text-yellow-400">
+        <FaYoutube size={30} />
       </Link>
-      <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 hover:text-yellow-400">
+      <Link href="https://x.com/EcoPowerGS" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 hover:text-yellow-400">
         <FaTwitter size={30} />
       </Link>
-      <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 hover:text-yellow-400">
+      <Link href="https://www.instagram.com/ecopowergs/" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 hover:text-yellow-400">
         <FaInstagram size={30} />
       </Link>
     </div>

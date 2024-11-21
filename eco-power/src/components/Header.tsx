@@ -38,10 +38,17 @@ const Header = () => {
             Pontos de coleta
           </Link>
           <Link
-            href="/parceiras"
+            href="/parcerias"
             className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
           >
             Parcerias
+          </Link>
+
+          <Link
+            href="/integrantes"
+            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
+          >
+            Integrantes
           </Link>
         </nav>
       </div>
