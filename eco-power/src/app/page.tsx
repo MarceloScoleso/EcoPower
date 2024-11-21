@@ -1,7 +1,8 @@
 // pages/index.js
+
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa'; 
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -28,8 +29,8 @@ export default function Home() {
         </Link>
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
-        <Link href="#impacto" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
-          Impacto Ambiental
+        <Link href="/Reciclagem" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+          Reciclagem 
         </Link>
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
@@ -135,23 +136,8 @@ export default function Home() {
 
 
       {/* Rodapé */}
-      <footer className="relative bg-gradient-to-r from-green-500 to-blue-600 text-white py-8">
-      <div className="absolute inset-0 bg-black opacity-30"></div>
-        <div className="max-w-6xl mx-auto text-center">
-          <p>&copy; 2024 EcoPower. Todos os direitos reservados.</p>
-          <div className="flex justify-center space-x-6 mt-4">
-            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 hover:text-yellow-400">
-              <FaFacebook size={30} />
-            </Link>
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 hover:text-yellow-400">
-              <FaTwitter size={30} />
-            </Link>
-            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110 hover:text-yellow-400">
-              <FaInstagram size={30} />
-            </Link>
-          </div>
-        </div>
-      </footer>
+      <Footer />
+
     </div>
   );
 }
