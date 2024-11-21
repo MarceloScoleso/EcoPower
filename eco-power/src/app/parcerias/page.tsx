@@ -1,16 +1,27 @@
-// src/app/parcerias/page.tsx
 import React from 'react';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import CardParceira from './ParceiroCard'; // Importando o componente CardParceira
 
 export default function Parcerias() {
   return (
-    <main className="flex flex-col items-center justify-center h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold text-green-600">Empresas Parceiras</h1>
-      <ul className="mt-8 w-4/5 bg-white shadow-md rounded-lg p-4">
-        {/* Lista de parceiros */}
-        <li className="p-2 border-b">Empresa 1</li>
-        <li className="p-2 border-b">Empresa 2</li>
-        <li className="p-2">Empresa 3</li>
-      </ul>
-    </main>
+    <div className="flex flex-col min-h-screen">
+      
+      <Header />
+
+      <main className="flex flex-col items-center justify-center flex-grow bg-gray-100">
+        <h1 className="text-4xl font-bold text-gray-800">Empresas Parceiras</h1>
+
+        {/* Usando o CardParceira para a empresa FIAP */}
+        <CardParceira 
+          nome="FIAP" 
+          logo='/images/fiap.png' // Substitua com o caminho correto da logo
+          link="https://www.fiap.com.br" // Substitua com o link real
+        />
+      </main>
+
+      
+      <Footer />
+    </div>
   );
 }

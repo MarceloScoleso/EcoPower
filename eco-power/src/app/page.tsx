@@ -14,8 +14,8 @@ export default function Home() {
   <nav>
     <ul className="flex space-x-6 text-white text-sm md:text-base ml-4">
       <li className="transition transform hover:scale-110 hover:text-blue-600">
-        <Link href="/" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
-          Início
+        <Link href="/parcerias" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+          Parcerias
         </Link>
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
@@ -24,7 +24,7 @@ export default function Home() {
         </Link>
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
-        <Link href="#funcionalidades" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+        <Link href="/perfil" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
           Perfil
         </Link>
       </li>
@@ -34,12 +34,12 @@ export default function Home() {
         </Link>
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
-        <Link href="#contato" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+        <Link href="/login" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
           Login
         </Link>
       </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
-        <Link href="#contato" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+        <Link href="/cadastro" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
           Cadastro
         </Link>
       </li>

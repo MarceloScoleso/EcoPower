@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between">
         {/* Logotipo */}
         <div className="flex items-center space-x-2">
-          <Image src="/logo1.png" alt="EcoPower" width={150} height={50} />
+          <Image src="/images/logo1.png" alt="EcoPower" width={150} height={50} />
         </div>
 
         {/* Menu de navegação */}
@@ -20,28 +20,28 @@ const Header = () => {
             Início
           </Link>
           <Link
-            href="/#sobre"
+            href="/perfil"
             className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
           >
-            Sobre
+            Perfil
           </Link>
           <Link
-            href="/#funcionalidades"
-            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
-          >
-            Funcionalidades
-          </Link>
-          <Link
-            href="/Reciclagem"
+            href="/reciclagem"
             className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
           >
             Reciclagem
           </Link>
           <Link
-            href="/contato"
+            href="/pontos-coleta"
             className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
           >
-            Contato
+            Pontos de coleta
+          </Link>
+          <Link
+            href="/parceiras"
+            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
+          >
+            Parcerias
           </Link>
         </nav>
       </div>
