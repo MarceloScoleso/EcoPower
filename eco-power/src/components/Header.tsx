@@ -9,7 +9,7 @@ const Header = () => {
         {/* Logotipo */}
         <div className="flex items-center space-x-2">
         <Image src="/logo1.png" alt="EcoPower" width={150} height={50} />
-          <span className="text-xl font-bold">EcoPower</span>
+          
         </div>
 
         {/* Menu de navegação */}
