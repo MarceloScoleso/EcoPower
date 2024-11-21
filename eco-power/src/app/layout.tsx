@@ -1,6 +1,7 @@
 // src/app/layout.tsx
 import { ReactNode } from 'react';
 
+import 'leaflet/dist/leaflet.css';
 import '../styles/globals.css'; // Verifique se o caminho está correto
 
 interface LayoutProps {
