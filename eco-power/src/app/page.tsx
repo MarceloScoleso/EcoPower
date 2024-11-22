@@ -13,6 +13,11 @@ export default function Home() {
   <Image src="/images/logo1.png" alt="EcoPower" width={150} height={50} />
   <nav>
     <ul className="flex space-x-6 text-white text-sm md:text-base ml-4">
+    <li className="transition transform hover:scale-110 hover:text-blue-600">
+        <Link href="/loja" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+          Loja
+        </Link>
+      </li>
       <li className="transition transform hover:scale-110 hover:text-blue-600">
         <Link href="/parcerias" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
           Parcerias

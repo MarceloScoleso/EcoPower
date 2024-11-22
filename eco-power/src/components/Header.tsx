@@ -13,12 +13,38 @@ const Header = () => {
 
         {/* Menu de navegação */}
         <nav className="flex space-x-4">
-          <Link
+        <Link
             href="/"
             className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
           >
             Início
           </Link>
+          <Link
+            href="/loja"
+            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
+          >
+            Loja
+          </Link>
+          <Link
+            href="/parcerias"
+            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
+          >
+            Parcerias
+          </Link>
+          
+          <Link
+            href="/ranking"
+            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
+          >
+            Ranking
+          </Link>
+        <Link
+            href="/integrantes"
+            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
+          >
+            Integrantes
+          </Link>
+        
           <Link
             href="/perfil"
             className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
@@ -37,19 +63,10 @@ const Header = () => {
           >
             Pontos de coleta
           </Link>
-          <Link
-            href="/parcerias"
-            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
-          >
-            Parcerias
-          </Link>
+         
 
-          <Link
-            href="/integrantes"
-            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
-          >
-            Integrantes
-          </Link>
+          
+
         </nav>
       </div>
     </header>
