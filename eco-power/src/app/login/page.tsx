@@ -16,7 +16,7 @@ const LoginPage: React.FC = () => {
     if (usuario) {
       const dadosUsuario = JSON.parse(usuario);
       if (dadosUsuario.senha === senha) {
-        router.push('/perfil'); // Redireciona para o perfil
+        router.push('/perfil');
       } else {
         setErro('Senha incorreta');
       }
@@ -26,23 +26,23 @@ const LoginPage: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-green-400 to-blue-500">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-green-400 to-blue-500">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
         <h2 className="text-3xl font-semibold text-center text-green-600 mb-6">Login</h2>
         {erro && <p className="text-red-500 text-center mb-4">{erro}</p>}
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="block text-gray-800 font-semibold">Email</label> {/* Texto mais escuro */}
+            <label className="block text-gray-800 font-semibold">Email</label>
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400 text-gray-900" 
+              className="w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-400 text-gray-900"
               required
             />
           </div>
           <div className="mb-4">
-            <label className="block text-gray-800 font-semibold">Senha</label> {/* Texto mais escuro */}
+            <label className="block text-gray-800 font-semibold">Senha</label>
             <input
               type="password"
               value={senha}
@@ -55,9 +55,15 @@ const LoginPage: React.FC = () => {
             Entrar
           </button>
         </form>
-        <p className="mt-4 text-center text-gray-800"> {/* Texto fixo mais escuro */}
+        <p className="mt-4 text-center text-gray-800">
           Não tem uma conta? <a href="/cadastro" className="text-blue-500 hover:text-blue-600">Cadastre-se</a>
         </p>
+        <button
+          onClick={() => router.push('/')}
+          className="w-full mt-4 p-3 bg-gray-300 text-gray-800 rounded-md hover:bg-gray-400 transition-colors duration-300"
+        >
+          Voltar para a página inicial
+        </button>
       </div>
     </div>
   );
