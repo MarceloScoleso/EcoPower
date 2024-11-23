@@ -5,7 +5,7 @@ import Header from '../../components/Header'; // Importe o Header do seu compone
 import Footer from '../../components/Footer'; // Importe o Footer do seu componente
 import Image from 'next/image';  // Importando o componente Image do Next.js
 
-const ReciclagemPage = () => {
+const reciclagemPage = () => {
   const [pontosEstimativa, setPontosEstimativa] = useState<number>(0);
   const [quantidade, setQuantidade] = useState<string>('');
   const [tipoLixo, setTipoLixo] = useState<string>('bateria-celular');
@@ -174,4 +174,4 @@ const ReciclagemPage = () => {
   );
 };
 
-export default ReciclagemPage;
+export default reciclagemPage;

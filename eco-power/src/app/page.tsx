@@ -77,7 +77,7 @@ export default function Home() {
             Com nossa plataforma de reciclagem, você contribui para um futuro sustentável enquanto converte lixo eletrônico em fontes de energia renovável!
           </p>
         <nav>
-        <Link href="/reciclagem" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
+        <Link href="/reciclamento" className="px-6 py-2 bg-green-600 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300">
           Recicle Aqui!
         </Link>
         </nav>
