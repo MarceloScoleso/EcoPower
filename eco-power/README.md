@@ -5,7 +5,7 @@ EcoPower 🌿
 EcoPower é uma plataforma web inovadora que incentiva a reciclagem de resíduos eletrônicos, transformando-os em fontes de energia renovável. A plataforma conecta empresas, indivíduos e pontos de coleta, promovendo sustentabilidade por meio de gamificação e incentivos ambientais.
 
 📋 Funcionalidades
-
+a
 Cadastro e Login de Usuários: Acesse sua conta para acompanhar seu impacto ambiental.
 Dashboard Interativo: Visualize seus pontos, impacto ambiental, ranking e desafios concluídos.
 Mapa de Pontos de Coleta: Descubra os locais mais próximos para descarte de resíduos eletrônicos.
